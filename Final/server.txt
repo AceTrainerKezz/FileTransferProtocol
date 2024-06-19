@@ -1,0 +1,196 @@
+(null) 
+/ 
+My pid is 2027
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode P 
+Server performing pwd command.
+Server current directory path /. 
+Server has sent path
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des/Desktop/A2v5/testdir.
+Server changed dir successfully message sent to client.
+Server received opcode P 
+Server performing pwd command.
+Server current directory path /home/des/Desktop/A2v5/testdir. 
+Server has sent path
+Server received opcode D 
+Server performing dir command.
+Server current directory path /home/des/Desktop/A2v5/testdir. 
+Server files in path m%markingguide.doc%b.txt%..%bigbig.txt%big.txt%.%. 
+Server sent current working directory files 
+Server received opcode G 
+Server performing get command
+.Server received request to send big.txt file. 
+File big.txt exists in server. 
+File sent to client. 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode P 
+Server performing pwd command.
+Server current directory path /. 
+Server has sent path
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des/Desktop/A2v5/testdir.
+Server changed dir successfully message sent to client.
+Server received opcode D 
+Server performing dir command.
+Server current directory path /home/des/Desktop/A2v5/testdir. 
+Server files in path m%markingguide.doc%b.txt%..%bigbig.txt%big.txt%.%. 
+Server sent current working directory files 
+Server received opcode G 
+Server performing get command
+.Server received request to send big.txt file. 
+File big.txt exists in server. 
+File sent to client. 
+Server received opcode G 
+Server performing get command
+.Server received request to send bigbig.txt file. 
+File bigbig.txt exists in server. 
+File sent to client. 
+Server received opcode G 
+Server performing get command
+.Server received request to send m file. 
+File m exists in server. 
+File sent to client. 
+Server received opcode G 
+Server performing get command
+.Server received request to send markingguide.doc file. 
+File markingguide.doc exists in server. 
+File sent to client. 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des/Desktop/A2v5/testdir.
+Server changed dir successfully message sent to client.
+Server received opcode G 
+Server performing get command
+.Server received request to send big.txt file. 
+File big.txt exists in server. 
+File sent to client. 
+Server received opcode G 
+Server performing get command
+.Server received request to send bigbig,txt file. 
+File /home/des/Desktop/A2v5/testdir/bigbig,txt does not exists in server. 
+Server received opcode G 
+Server performing get command
+.Server received request to send bigbig.txt file. 
+File bigbig.txt exists in server. 
+File sent to client. 
+Server received opcode G 
+Server performing get command
+.Server received request to send m file. 
+File m exists in server. 
+File sent to client. 
+Server received opcode G 
+Server performing get command
+.Server received request to send markingguide.doc file. 
+File markingguide.doc exists in server. 
+File sent to client. 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode P 
+Server performing pwd command.
+Server current directory path /. 
+Server has sent path
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des/Desktop/A2v5/testdir.
+Server changed dir successfully message sent to client.
+Server received opcode D 
+Server performing dir command.
+Server current directory path /home/des/Desktop/A2v5/testdir. 
+Server files in path ..%.%. 
+Server sent current working directory files 
+Server received opcode U 
+Server performing put command.
+Client request to upload file m.
+server sending ack packet that server is ready to recieve file.
+Server received opcode U 
+Server performing put command.
+Client request to upload file markingguide.doc.
+server sending ack packet that server is ready to recieve file.
+Server received opcode U 
+Server performing put command.
+Client request to upload file big.txt.
+server sending ack packet that server is ready to recieve file.
+Server received opcode U 
+Server performing put command.
+Client request to upload file bigbig.txt.
+server sending ack packet that server is ready to recieve file.
+Server received opcode D 
+Server performing dir command.
+Server current directory path /home/des/Desktop/A2v5/testdir. 
+Server files in path m%markingguide.doc%..%bigbig.txt%big.txt%.%. 
+Server sent current working directory files 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode G 
+Server performing get command
+.Server received request to send a file. 
+File //a does not exists in server. 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode G 
+Server performing get command
+.Server received request to send a file. 
+File //a does not exists in server. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode G 
+Server performing get command
+.Server received request to send b file. 
+File //b does not exists in server. 
+A client has connected. 
+Prcocess client request begin. 
+A client has connected. 
+Prcocess client request begin. 
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des/Desktop.
+Server changed dir successfully message sent to client.
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des.
+Server changed dir unsuccessfully message sent to client.
+Server received opcode C 
+Server performing cd command.
+Server changing dir to home/des/Documents.
+Server changed dir successfully message sent to client.
+Server received opcode P 
+Server performing pwd command.
+Server current directory path /home/des/Documents. 
+Server has sent path
+Server received opcode P 
+Server performing pwd command.
+Server current directory path /home/des/Desktop. 
+Server has sent path
+Server received opcode D 
+Server performing dir command.
+Server current directory path /home/des/Documents. 
+Server files in path ..%.%. 
+Server sent current working directory files 
+Server received opcode D 
+Server performing dir command.
+Server current directory path /home/des/Desktop. 
+Server files in path ..%A2v5%.%. 
+Server sent current working directory files 

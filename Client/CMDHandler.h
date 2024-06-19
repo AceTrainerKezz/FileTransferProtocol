@@ -1,0 +1,11 @@
+int CmdHandler(const char* cmd, const char* arg);
+int ClientCMDnoArg(const char* cmd);
+void CliendtCMDwArg(const char* cmd, const char* arg);
+const char* GetCWD();
+static const char* CliDir = "ldir";
+static const char* DIRCMD = "dir";
+static const char* CliPwd = "lpwd";
+static const char* PWDCMD = "pwd";
+static const char* CliCd = "lcd";
+static const char* CDCMd = "cd";
+static const char* QUIT = "quit";
